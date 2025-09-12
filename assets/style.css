@@ -7,7 +7,7 @@
   background:transparent !important;
   border:0;
   line-height:1;
-  color:#111;
+  color:#111 !important;
 }
 .mg-prev:focus,.mg-next:focus{ outline:2px solid #1C6474; outline-offset:2px; }
 
