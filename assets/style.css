@@ -15,12 +15,12 @@
 .mg-prev::before {
   content: "‹";
   font-size: 24px;
-  color: #111; 
+  color: #0a0a0a; 
 }
 .mg-next::before {
   content: "›";
   font-size: 24px;
-  color: #111;
+  color: #0a0a0a;
 }
 .mg-prev:focus,
 .mg-next:focus {
@@ -37,13 +37,13 @@
 .carousel-control-next-icon::after {
   content: "›";
   font-size: 2rem;
-  color: #111; 
+  color: #0a0a0a; 
 }
 
 .carousel-control-prev-icon::after {
   content: "‹";
   font-size: 2rem;
-  color: #111;
+  color: #0a0a0a;
 }
 
 body {
