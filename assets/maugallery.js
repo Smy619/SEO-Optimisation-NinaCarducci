@@ -200,13 +200,13 @@
                         <div class="modal-body">
                             ${
                               navigation
-                                ? '<button class="mg-prev" aria-label="Previous image" style="cursor:pointer;position:absolute;top:50%;left:-15px;background:white;">&lsaquo;<span class="visually-hidden">Previous</span></button>'
+                                ? '<button class="mg-prev" aria-label="Previous image" style="cursor:pointer;position:absolute;top:50%;left:-15px;background:white;">&lsaquo;</button>'
                                 : '<span style="display:none;" />'
                             }
                             <img class="lightboxImage img-fluid" alt="Contenu de l'image affichée dans la modale au clique"/>
                             ${
                               navigation
-                                ? '<button class="mg-next" aria-label="Next image" style="cursor:pointer;position:absolute;top:50%;right:-15px;background:white;">&rsaquo;<span class="visually-hidden">Next</span></button>'
+                                ? '<button class="mg-next" aria-label="Next image" style="cursor:pointer;position:absolute;top:50%;right:-15px;background:white;">&rsaquo;</button>'
                                 : '<span style="display:none;" />'
                             }
                         </div>
