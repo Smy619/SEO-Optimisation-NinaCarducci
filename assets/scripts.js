@@ -14,3 +14,7 @@ $(document).ready(function() {
         tagsPosition: 'top'
     });
 });
+document.addEventListener('DOMContentLoaded', () => {
+  document.querySelectorAll('.carousel-control-prev .visually-hidden, .carousel-control-next .visually-hidden')
+    .forEach(el => el.remove());
+});
