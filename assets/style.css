@@ -12,40 +12,56 @@
   background: transparent !important;
 }
 
-.mg-prev::before {
+.mg-prev {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  left: -15px;
+  background: white;
+  width: 30px;
+	height: 30px;
+	border-radius: 00%;
+	justify-content: center;
+	align-items: center;
+	display: flex;
+	font-size: 24px;
+  border:none;
+  outline: none;
+}
+
+.mg-next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  right: -15px;
+  background: white;
+  width: 30px;
+	height: 30px;
+	justify-content: center;
+	align-items: center;
+	display: flex;
+	font-size: 24px;
+  border:none;
+  outline: none;
+}
+.mg-prev::after {
   content: "‹";
   font-size: 24px;
-  color: #0a0a0a; 
+  font-weight: bold;
+  color:#000;
 }
-.mg-next::before {
+
+.mg-next::after {
   content: "›";
   font-size: 24px;
-  color: #0a0a0a;
-}
-.mg-prev:focus,
-.mg-next:focus {
-  outline: 2px solid #1c6474;
-  outline-offset: 2px;
-}
-.carousel-control-next-icon,
-.carousel-control-prev-icon {
-  background-image: none !important;
-  width: 2rem;
-  height: 2rem;
+  font-weight: bold;
+  color: #000;
 }
 
-.carousel-control-next-icon::after {
-  content: "›";
-  font-size: 2rem;
-  color: #0a0a0a; 
+.mg-prev:hover,
+.mg-next:hover {
+  background: #f2f2f2;
 }
-
-.carousel-control-prev-icon::after {
-  content: "‹";
-  font-size: 2rem;
-  color: #0a0a0a;
-}
-
 body {
   max-width: 1920px;
   margin: auto;
